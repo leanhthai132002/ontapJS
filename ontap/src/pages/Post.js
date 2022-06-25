@@ -4,9 +4,7 @@ const Post = {
   render: async () => {
     const response = await getPosts();
     const { data } = response;
-    function myFunction() {
-        confirm("Press a button!");
-      }
+
     return `
           <div class="container">
           <div class="row">        
